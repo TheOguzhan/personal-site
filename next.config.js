@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
     // Required:
     appDir: true,
+    fontLoaders: [{ loader: '@next/font/google' }],
   },
 };
 
