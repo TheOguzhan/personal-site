@@ -4,7 +4,7 @@ import Link, { LinkProps } from "next/link";
 import React, { Ref } from "react";
 import { Roboto_Flex } from '@next/font/google';
 
-const roboto_flex = Roboto_Flex({ weight: '700' });
+const roboto_flex = Roboto_Flex({ weight: '700', subsets: ['latin'] });
 
 interface CustomLinkProps extends LinkProps {
     children: React.ReactNode;
